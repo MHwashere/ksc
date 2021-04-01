@@ -1,0 +1,8 @@
+beautifulsoup4
+colorama
+discord-webhook
+fake-useragent
+numpy
+requests
+selenium
+tldextract
