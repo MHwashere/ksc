@@ -30,5 +30,5 @@ python3 ksc.py
 
 ## Navigate KSC
 - WELCOME TO KSC HOME. CONTINUE TO (setup) FOR ALERTS AND DISCORD, (products) TO VIEW, ADD OR REMOVE PRODUCTS, (start) TO START CHECKING STOCK, (exit) TO QUIT KSC
-- WELCOME TO KSC SETUP. (info) TO CHECK CURRENT ALERT DETAILS, (alert keyword1 keyword2 keywordn) TO SET THE KEYWORD(S) FOR ALERTS, (clear alert) TO CLEAR AN ALERT, (discord link_to_discord_webhook) TO SET UP DISCORD NOTIFICATIONS, (back) TO RETURN HOME
-- WELCOME TO KSC PRODUCTS. (list) TO VIEW PRODUCTS, (add url, search_key, name) TO ADD A PRODUCT, (remove productnumber1, productnumber2, productnumbern)/remove all) TO REMOVE THE PRODUCT(S), (back) TO RETURN HOME
+- WELCOME TO KSC SETUP. (info) TO CHECK CURRENT ALERT DETAILS, (alert keyword1 keyword2 keywordN) TO SET THE KEYWORD(S) FOR ALERTS, (clear alert) TO CLEAR AN ALERT, (discord link_to_discord_webhook) TO SET UP DISCORD NOTIFICATIONS, (back) TO RETURN HOME
+- WELCOME TO KSC PRODUCTS. (list) TO VIEW PRODUCTS, (add url, search_key, name) TO ADD A PRODUCT, (remove productnumber1, productnumber2, productnumberN)/remove all) TO REMOVE THE PRODUCT(S), (back) TO RETURN HOME
