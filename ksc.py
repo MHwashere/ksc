@@ -178,7 +178,7 @@ def main():
             flow = input()
             if flow == "setup":
                 while True:
-                    print(Fore.LIGHTMAGENTA_EX + "WELCOME TO KSC SETUP. (info) TO CHECK CURRENT ALERT DETAILS, (alert keyword1 keyword2 keywordn) TO SET THE KEYWORD(S) FOR ALERTS, (clear alert) TO CLEAR AN ALERT, (discord link_to_discord_webhook) TO SET UP DISCORD NOTIFICATIONS, (back) TO RETURN HOME" + Fore.RESET)
+                    print(Fore.LIGHTMAGENTA_EX + "WELCOME TO KSC SETUP. (info) TO CHECK CURRENT ALERT DETAILS, (alert keyword1 keyword2 keywordN) TO SET THE KEYWORD(S) FOR ALERTS, (clear alert) TO CLEAR AN ALERT, (discord link_to_discord_webhook) TO SET UP DISCORD NOTIFICATIONS, (back) TO RETURN HOME" + Fore.RESET)
                     setupInput = input()
                     if setupInput == "info":
                         keywords = setup[0]
@@ -196,7 +196,7 @@ def main():
                             print(Fore.RED + "DISCORD NOT LINKED" + Fore.RESET)
                     elif setupInput == "alert":
                         print(Fore.YELLOW +
-                              "alert keyword1 keyword2 keywordn" + Fore.RESET)
+                              "alert keyword1 keyword2 keywordN" + Fore.RESET)
                     elif setupInput.startswith("alert "):
                         keywords = setupInput[6:len(
                             setupInput)].lower().split()
@@ -230,7 +230,7 @@ def main():
                               Fore.WHITE + "(" + setupInput + ")" + Fore.RESET)
             elif flow == "products":
                 while True:
-                    print(Fore.CYAN + "WELCOME TO KSC PRODUCTS. (list) TO VIEW PRODUCTS, (add url, search_key, name) TO ADD A PRODUCT, (remove productnumber1, productnumber2, productnumbern)/remove all) TO REMOVE THE PRODUCT(S), (back) TO RETURN HOME" + Fore.RESET)
+                    print(Fore.CYAN + "WELCOME TO KSC PRODUCTS. (list) TO VIEW PRODUCTS, (add url, search_key, name) TO ADD A PRODUCT, (remove productnumber1, productnumber2, productnumberN)/remove all) TO REMOVE THE PRODUCT(S), (back) TO RETURN HOME" + Fore.RESET)
                     productsInput = input()
                     if productsInput == "list":
                         products.sort(key=fullName)
@@ -244,7 +244,7 @@ def main():
                                 index += 1
                     elif productsInput == "remove":
                         print(
-                            Fore.YELLOW + "remove productnumber1, productnumber2, productnumbern)/remove all" + Fore.RESET)
+                            Fore.YELLOW + "remove productnumber1, productnumber2, productnumberN)/remove all" + Fore.RESET)
                     elif productsInput.startswith("remove "):
                         removeId = productsInput[7:len(productsInput)]
                         if removeId == "all":
