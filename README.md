@@ -14,14 +14,14 @@ sudo apt install python3
 
 
 ## Discord Notifications
-This program uses discord notifications to alert the user of new stock. You will need to provide a discord webhook of the server where you wish to recieve alerts.
+This program uses discord notifications to alert the user of new stock. You will need to provide a discord webhook of the server where you wish to receive alerts.
 - Discord Notifications using Webhooks: [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
 ## Setup
 1. Download ksc.py and packages.txt
 2. Complete all requirements
 3. Install the necessary packages 
--  `pip3 install -r packages.txt`
+   -  `pip3 install -r packages.txt`
 
 ## Run
 ```
